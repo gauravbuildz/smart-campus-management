@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useSession, signOut } from 'next-auth/react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -16,6 +16,15 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
   const { data: session, status } = useSession();
   const pathname = usePathname();
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [loadingTimedOut, setLoadingTimedOut] = useState(false);
+
+  // Prevent infinite loading — if session takes more than 3s, continue rendering
+  useEffect(() => {
+    if (status === 'loading') {
+      const timer = setTimeout(() => setLoadingTimedOut(true), 3000);
+      return () => clearTimeout(timer);
+    }
+  }, [status]);
 
   const navigation: SidebarItem[] = [
     {
@@ -40,7 +49,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
     },
   ];
 
-  if (status === 'loading') {
+  if (status === 'loading' && !loadingTimedOut) {
     return (
       <div className="flex h-screen w-screen items-center justify-center bg-slate-50">
         <svg className="animate-spin h-8 w-8 text-cyan-500" fill="none" viewBox="0 0 24 24">
