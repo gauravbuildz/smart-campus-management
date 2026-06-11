@@ -54,6 +54,7 @@
 
 # 🛠️ Run Locally 
 
+
 ### **1. Clone the repository**
 ```bash
 git clone [https://github.com/gaurav-spnrec/smart-campus-management.git](https://github.com/gaurav-spnrec/smart-campus-management.git)
