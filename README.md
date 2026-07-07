@@ -85,7 +85,7 @@ In traditional educational institutions, campus operations are plagued by fragme
 | **Frontend Framework** | Next.js (App Router) | `16.2.6` | Client/Server Rendering, API Handlers |
 | **UI Library** | React | `19.2.4` | Component State Lifecycle & Interactive Views |
 | **Styling Engine** | Tailwind CSS | `v4.0` | Modern, responsive grid layouts and variables |
-| **Database Engine** | SQLite (Local) / PostgreSQL | (Neon Cloud) | Persistent database records storage |
+| **Database Engine** | PostgreSQL (Neon Cloud) | - | Persistent cloud database storage |
 | **Database ORM** | Prisma Client | `5.18.0` | Schema definitions and type-safe query generation |
 | **Authentication** | NextAuth.js | `4.24.14` | Secure CredentialsProvider JWT session management |
 | **Client Fetching** | SWR | `2.4.2` | High-frequency polling data cache synchronization |
@@ -100,7 +100,6 @@ In traditional educational institutions, campus operations are plagued by fragme
 ```
 smart-campus-management/
 ├── prisma/
-│   ├── dev.db                 # SQLite database storage (development)
 │   ├── schema.prisma          # Prisma data schemas & relational models
 │   └── seed.ts                # Seeding script for mock users & logs
 ├── public/                    # Static asset catalog
@@ -169,7 +168,7 @@ graph TD
     SWR -->|Requests| APILayer[src/app/api/* Routing Layer]
     
     APILayer -->|Queries| Prisma[Prisma ORM Client]
-    Prisma -->|Read/Write| DB[(SQLite / PostgreSQL Database)]
+    Prisma -->|Read/Write| DB[(PostgreSQL Database)]
 ```
 
 ---
@@ -289,7 +288,7 @@ sequenceDiagram
     actor Admin
     participant App as Dashboard Router
     participant API as Serverless Routes
-    participant DB as SQLite/Postgres DB
+    participant DB as PostgreSQL Database
     
     Student->>App: Submits WiFi Complaint (e.g. WiFi down)
     App->>API: POST /api/issues
@@ -430,8 +429,9 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 Create a `.env` file in the project root directory.
 
 ```properties
-# Prisma Database Connections (Configured for SQLite locally or PostgreSQL in production)
-DATABASE_URL="file:./dev.db"
+# Prisma Database Connections (Neon Serverless PostgreSQL connection)
+DATABASE_URL="postgresql://neondb_owner:***@ep-blue-smoke-aqssraku-pooler.c-8.us-east-1.aws.neon.tech/neondb?sslmode=require"
+DIRECT_URL="postgresql://neondb_owner:***@ep-blue-smoke-aqssraku.c-8.us-east-1.aws.neon.tech/neondb?sslmode=require"
 
 # NextAuth Configurations
 NEXTAUTH_SECRET="super-secret-campus-key-12345"
@@ -466,7 +466,7 @@ If you run the seeding script (`npm run db seed`), you can log in using these de
 ## 📈 Performance & Security Metrics
 
 *   **Optimized Client Fetching (SWR):** Utilizes `swr` caches for client queries. Features dynamic background polling intervals (refresh every 5 seconds) to ensure real-time campus data updates without full page reloads.
-*   **Robust Connection Pools:** The Prisma Client client-wrapper (`src/lib/db.ts`) preserves connection instances in hot-reloading development environments to avoid sqlite/postgresql database socket leaks.
+*   **Robust Connection Pools:** The Prisma Client client-wrapper (`src/lib/db.ts`) preserves connection instances in hot-reloading development environments to avoid PostgreSQL connection socket leaks.
 *   **Middleware Route Guards:** No client layouts load unless sessions exist. Unauthorized pages are caught and redirected.
 *   **Sanitized Data Inputs:** Role switches and registration formats are checked server-side to prevent privilege escalation.
 
