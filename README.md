@@ -35,7 +35,7 @@
 13. [Environment Configuration](#-environment-configuration)
 14. [Design & Layout Specs](#-design--layout-specs)
 15. [Performance & Security Metrics](#-performance--security-metrics)
-16. [Interface Preview](#-interface-preview)
+16. [📸 Screenshots](#-screenshots)
 17. [Future Enhancements](#-future-enhancements)
 18. [Contributing](#-contributing)
 19. [License & Acknowledgments](#-license--acknowledgments)
@@ -472,15 +472,118 @@ If you run the seeding script (`npm run db seed`), you can log in using these de
 
 ---
 
-## 🖼️ Interface Preview
+## 📸 Screenshots
 
-Below are the mock outlines of standard interface views:
+> [!NOTE]
+> This project features a modern, responsive, and glassmorphic user interface. Since screenshots are not currently committed to the repository, all major views are listed below as **missing/planned**. If you are running the application locally or in staging, you can help by contributing screenshots to the directories shown below.
 
-| View Page | Description | Outline Representation |
-| :--- | :--- | :--- |
-| **Landing & Auth Gateway** | Main entry hub displaying info cards, FAQ accordions, and registration login portals. | `[ Hero Section ]` <br/> `[ Login / Sign Up Forms ]` |
-| **Student Dashboard** | Live grid cards showing active complaints, notification counters, and recent notices. | `[ Notice Board ] [ Action Widgets ]` <br/> `[ My Complaints Logs ] [ Active Claims ]` |
-| **Admin Operations** | Manage students, adjust complaint resolutions, issue announcements, and review analytics. | `[ Analytics Charts ] [ Manage Students ]` <br/> `[ Complaints Control Panel ]` |
+### 🗺️ Screenshot Contribution Guide & Map
+
+To keep the repository clean and premium, please place all screenshots in the `screenshots/` directory. The following list outlines the required screenshots, their recommended filenames, and description details:
+
+<details open>
+<summary><b>🌐 Landing & Authentication Views (3 items)</b></summary>
+
+*   **1. Landing Page**
+    *   **File Path:** `screenshots/landing-page.png`
+    *   **Description:** The homepage showcasing the dynamic glassmorphic panels, feature highlight cards, and FAQ accordions.
+    *   **Status:** ❌ Missing (Contribution Welcome)
+*   **2. Login Page**
+    *   **File Path:** `screenshots/login-page.png`
+    *   **Description:** The Credentials Authentication modal displaying fields for email, password, and instant toast validation.
+    *   **Status:** ❌ Missing (Contribution Welcome)
+*   **3. Signup Page**
+    *   **File Path:** `screenshots/signup-page.png`
+    *   **Description:** The registration modal showing user enrollment options with role-based access dropdown inputs.
+    *   **Status:** ❌ Missing (Contribution Welcome)
+
+</details>
+
+<details>
+<summary><b>🧑‍🎓 Student Dashboard & Feature Views (7 items)</b></summary>
+
+*   **4. Student Dashboard**
+    *   **File Path:** `screenshots/student-dashboard.png`
+    *   **Description:** The default portal layout showing active complaint counters, dynamic notifications drawer, and pinned notices.
+    *   **Status:** ❌ Missing (Contribution Welcome)
+*   **5. Student Analytics**
+    *   **File Path:** `screenshots/student-analytics.png`
+    *   **Description:** The student’s dashboard sub-views showing graphs and charts of their submitted requests and status.
+    *   **Status:** ❌ Missing (Contribution Welcome)
+*   **6. Student Resource Hub**
+    *   **File Path:** `screenshots/student-resource-hub.png`
+    *   **Description:** The document library containing downloadable syllabi, timetables, and guideline forms.
+    *   **Status:** ❌ Missing (Contribution Welcome)
+*   **7. Student Service Requests**
+    *   **File Path:** `screenshots/student-service-requests.png`
+    *   **Description:** The desk layout where students apply for Bonafide certificates, ID card requests, and parking passes.
+    *   **Status:** ❌ Missing (Contribution Welcome)
+*   **8. Student Notices**
+    *   **File Path:** `screenshots/student-notices.png`
+    *   **Description:** The announcements page displaying exam schedules, events, circulars, and pinned announcements.
+    *   **Status:** ❌ Missing (Contribution Welcome)
+*   **9. Student Lost & Found**
+    *   **File Path:** `screenshots/student-lost-found.png`
+    *   **Description:** The Lost & Found feed showing cards of reported items and the ownership claim modal.
+    *   **Status:** ❌ Missing (Contribution Welcome)
+*   **10. Student Complaints**
+    *   **File Path:** `screenshots/student-complaints.png`
+    *   **Description:** The issue reporting form demonstrating real-time description keyword matching and automatic severity tagging.
+    *   **Status:** ❌ Missing (Contribution Welcome)
+
+</details>
+
+<details>
+<summary><b>👩‍💼 Admin Management & Dashboard Views (8 items)</b></summary>
+
+*   **11. Admin Dashboard**
+    *   **File Path:** `screenshots/admin-dashboard.png`
+    *   **Description:** The main administration hub displaying summary statistics, recent complaints, and service desk applications.
+    *   **Status:** ❌ Missing (Contribution Welcome)
+*   **12. Admin Analytics**
+    *   **File Path:** `screenshots/admin-analytics.png`
+    *   **Description:** Interactive analytics dashboard presenting category-wise status distribution charts and resolution histories.
+    *   **Status:** ❌ Missing (Contribution Welcome)
+*   **13. Student Management**
+    *   **File Path:** `screenshots/student-management.png`
+    *   **Description:** The control board showing a grid of registered users with administrative actions for editing, promoting, or deleting.
+    *   **Status:** ❌ Missing (Contribution Welcome)
+*   **14. Notice Management**
+    *   **File Path:** `screenshots/notice-management.png`
+    *   **Description:** The administrative broadcast panel to post, schedule, pin, or delete notices with attachment uploads.
+    *   **Status:** ❌ Missing (Contribution Welcome)
+*   **15. Resource Management**
+    *   **File Path:** `screenshots/resource-management.png`
+    *   **Description:** The admin resource dashboard to upload, tag, and categorize academic guidelines and forms.
+    *   **Status:** ❌ Missing (Contribution Welcome)
+*   **16. Service Request Management**
+    *   **File Path:** `screenshots/service-request-management.png`
+    *   **Description:** The administrative desk displaying student request pipelines with options to change status or add review logs.
+    *   **Status:** ❌ Missing (Contribution Welcome)
+*   **17. Lost & Found Management**
+    *   **File Path:** `screenshots/lost-found-management.png`
+    *   **Description:** The item resolution console where admins approve or reject ownership claims.
+    *   **Status:** ❌ Missing (Contribution Welcome)
+*   **18. Issue Management**
+    *   **File Path:** `screenshots/issue-management.png`
+    *   **Description:** The timeline view of reported complaints, showcasing step-by-step status transitions and administrator comments.
+    *   **Status:** ❌ Missing (Contribution Welcome)
+
+</details>
+
+<details>
+<summary><b>⚙️ General & Account Views (2 items)</b></summary>
+
+*   **19. Notifications**
+    *   **File Path:** `screenshots/notifications.png`
+    *   **Description:** The drawer/modal view displaying real-time alert logs of notice broadcasts, claim approvals, and ticket updates.
+    *   **Status:** ❌ Missing (Contribution Welcome)
+*   **20. Profile & Settings**
+    *   **File Path:** `screenshots/profile-settings.png`
+    *   **Description:** The settings panel for checking user information, updating login credentials, and changing security passwords.
+    *   **Status:** ❌ Missing (Contribution Welcome)
+
+</details>
 
 ---
 
