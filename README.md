@@ -60,7 +60,7 @@
 ## 🎥 Live Demo
 
 <div align="center">
-  <img src="assets/demo.gif" alt="Smart Campus Walkthrough" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);" />
+  <img src="https://github.com/gauravbuildz/smart-campus-management/raw/main/assets/demo.gif" alt="Smart Campus Walkthrough" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);" />
   <p><i>Complete application walkthrough</i></p>
 </div>
 
