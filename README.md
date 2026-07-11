@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="assets/hero-banner.png" alt="Smart Campus Service Hub Hero Banner" width="100%" style="border-radius: 8px;" />
+
+<br />
+
 # 🎓 Smart Campus Service Hub
 
 ### *A Modern, Secure & Centralized Digital Campus Management Platform.*
