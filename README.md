@@ -8,7 +8,8 @@
 
 ### *An online portal for students to submit requests, report infrastructure issues, and track lost-and-found items.*
 
-[![Vercel Demo](https://img.shields.io/badge/Vercel-Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://smart-campus-management-4rg6.vercel.app/)
+[![Vercel Demo](https://img.shields.io/badge/Vercel-Live_Web_App-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://smart-campus-management-4rg6.vercel.app/)
+[![YouTube Demo](https://img.shields.io/badge/YouTube-Video_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=your-video-id)
 [![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gaurav-spnrec/smart-campus-management-1.git)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
@@ -34,7 +35,8 @@
 
 ## Table of Contents
 
-- [🎥 Live Demo](#live-demo)
+- [🌐 Live Web Application](#live-web-application)
+- [🎥 Video Demonstration](#video-demonstration)
 - [📖 About Project](#about-project)
 - [🎯 Why Smart Campus Service Hub?](#why-smart-campus-service-hub)
 - [🚨 Problem Statement](#problem-statement)
@@ -61,13 +63,24 @@
 
 ---
 
-<a id="live-demo"></a>
-## Live Demo
+<a id="live-web-application"></a>
+## Live Web Application
+
+The platform is deployed live and can be accessed at:
+- **URL**: [smart-campus-management-4rg6.vercel.app](https://smart-campus-management-4rg6.vercel.app/)
 
 <div align="center">
   <img src="https://github.com/gauravbuildz/smart-campus-management/raw/main/assets/demo.gif" alt="Smart Campus Walkthrough" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);" />
   <p><i>Complete application walkthrough</i></p>
 </div>
+
+---
+
+<a id="video-demonstration"></a>
+## Video Demonstration
+
+You can watch a detailed video walkthrough of the project on YouTube:
+- **YouTube Link**: [Watch Video Demo](https://www.youtube.com/watch?v=your-video-id) *(Replace `your-video-id` with your uploaded video ID)*
 
 ---
 
