@@ -6,7 +6,7 @@
 
 # 🎓 Smart Campus Service Hub
 
-### *A Modern, Secure & Centralized Digital Campus Management Platform.*
+### *An online portal for students to submit requests, report infrastructure issues, and track lost-and-found items.*
 
 [![Vercel Demo](https://img.shields.io/badge/Vercel-Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://smart-campus-management-4rg6.vercel.app/)
 [![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gaurav-spnrec/smart-campus-management-1.git)
@@ -74,34 +74,34 @@
 <a id="about-project"></a>
 ## About Project
 
-The **Smart Campus Service Hub** is a next-generation web application designed to digitize and centralize core campus student services. Traditional campuses are held back by fragmented communications, physical paperwork, and manual status auditing. This project provides a robust, role-based, real-time portal where students can submit service requests and complain about infrastructure failures, while administrators can track resolutions, broadcast unexpired notices, manage resources, and audit operational analytics under a unified, glassmorphic UI.
+This portal is built to handle everyday campus tasks online. It gives students a single place to apply for documents (like certificates or ID cards), report physical maintenance issues (like broken lights or classroom problems), and post lost-and-found items. Administrators can log in to view the queue of requests, update their status, and broadcast notices to the student body.
 
 ---
 
 <a id="why-smart-campus-service-hub"></a>
 ## Why Smart Campus Service Hub?
 
-Traditional campus administration relies on manual paperwork, physical notice boards, and scattered messaging channels. Smart Campus Service Hub modernizes these workflows, offering:
+On a typical campus, students have to visit administrative offices in person to submit paper forms or ask about lost items, and maintenance issues are often reported verbally and forgotten. This portal moves these tasks online so they can be tracked, assigned, and resolved from a single dashboard.
 
 > [!TIP]
-> **Frictionless Student Experience**: Students can request documents, log lost-and-found items, and track service requests in real-time without visiting office desks.
+> **For Students**: Request documents, report lost items, and track maintenance tickets in real-time without having to visit office desks.
 
 > [!IMPORTANT]
-> **Operational Efficiency for Admins**: Centralized dashboards automate ticket routing, student records auditing, notice scheduling, and analytics tracking.
+> **For Administrators**: Centralize request routing, broadcast campus notices, and track ticket resolutions using a single dashboard.
 
 ---
 
 <a id="problem-statement"></a>
 ## Problem Statement
 
-Traditional campus administration is slowed down by manual, paper-based workflows and decentralized communication channels. Notices scattered across physical boards or informal chat groups lead to missed deadlines and confusion. Students face long queues to submit certificate applications or ID card request forms. Infrastructure maintenance issues are often verbalized and forgotten without tracking or accountability, while lost belongings tracked on paper logs are prone to collection disputes.
+Currently, campus communication and services are scattered. Notices are posted on physical bulletin boards or WhatsApp groups where they quickly get lost. Applying for document replacements requires physical paperwork and queues. Infrastructure issues like broken lights or offline WiFi routers are rarely logged formally, and lost items are tracked in paper registers that are hard to search and verify.
 
 ---
 
 <a id="proposed-solution"></a>
 ## Proposed Solution
 
-The Smart Campus Service Hub provides a centralized web portal that automates campus workflows. Students can login securely to submit service requests, log infrastructure complaints, and claim lost items with image proof. The system routes these requests through serverless API endpoints directly to an administrator control panel. Administrators can prioritize tickets, broadcast notices, review claims, and update resolution statuses in real-time, sending automatic updates to the student's notification drawer.
+The portal automates these requests. Students log in, select the service they need, and fill out a digital form with details and image proofs. Administrators see these submissions in their dashboard, where they can update the status (such as Pending, In Progress, or Resolved). Any status update sends a notification directly to the student’s inbox, keeping them informed without requiring office visits.
 
 ---
 
