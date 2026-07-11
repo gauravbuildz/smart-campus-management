@@ -60,12 +60,9 @@
 ## 🎥 Live Demo
 
 <div align="center">
-  <img src="assets/demo.gif" alt="Smart Campus Walkthrough Walkthrough" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);" />
+  <video src="assets/demo.mp4" width="90%" controls style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);"></video>
   <p><i>Complete application walkthrough</i></p>
 </div>
-
-> [!NOTE]
-> If the walkthrough GIF is missing, place your recorded walkthrough file at `assets/demo.gif`.
 
 ---
 
