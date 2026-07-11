@@ -24,12 +24,7 @@
   <img src="https://img.shields.io/badge/UploadThing-7.7.4-E25F5F?style=flat-square" alt="UploadThing">
 </p>
 
-<img src="assets/banner.png" alt="Smart Campus Service Hub Banner" width="100%" style="border-radius: 8px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15); margin: 20px 0;" />
-
 </div>
-
-> [!NOTE]
-> **Repository Assets**: The cover banner is located at `assets/banner.png`. If it is missing, create an `assets/` directory in the root and add your custom image there.
 
 ---
 
@@ -282,7 +277,7 @@ npx prisma db seed
 ```bash
 npm run dev
 ```
-Open [http://localhost:3000](http://localhost:3000) to view the application.
+Open [](http://localhost:3000) to view the application.
 
 ---
 
