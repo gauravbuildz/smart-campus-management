@@ -8,8 +8,8 @@
 
 ### *An online portal for students to submit requests, report infrastructure issues, and track lost-and-found items.*
 
-[![Vercel Demo](https://img.shields.io/badge/Vercel-Live_Web_App-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://smart-campus-management-4rg6.vercel.app/)
-[![YouTube Demo](https://img.shields.io/badge/YouTube-Video_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=your-video-id)
+[![Vercel Demo](https://img.shields.io/badge/Vercel-Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://smart-campus-management-4rg6.vercel.app/)
+[![Watch Demo](https://img.shields.io/badge/YouTube-Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=your-video-id)
 [![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gaurav-spnrec/smart-campus-management-1.git)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
@@ -68,14 +68,6 @@
 <div align="center">
   <img src="https://github.com/gauravbuildz/smart-campus-management/raw/main/assets/demo.gif" alt="Smart Campus Walkthrough" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);" />
   <p><i>Complete application walkthrough</i></p>
-
-  <br />
-
-  <p align="center">
-    <a href="https://smart-campus-management-4rg6.vercel.app/"><b>🚀 Live Demo</b></a> •
-    <a href="https://www.youtube.com/watch?v=your-video-id"><b>🎥 Watch Demo</b></a> •
-    <a href="https://github.com/gaurav-spnrec/smart-campus-management-1.git"><b>💻 Source Code</b></a>
-  </p>
 </div>
 
 ---
