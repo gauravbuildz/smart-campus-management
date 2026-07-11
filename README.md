@@ -24,11 +24,11 @@
   <img src="https://img.shields.io/badge/UploadThing-7.7.4-E25F5F?style=flat-square" alt="UploadThing">
 </p>
 
-</div>
-
 ---
 
-## 📌 Table of Contents
+</div>
+
+## Table of Contents
 
 - [🎥 Live Demo](#live-demo)
 - [📖 About Project](#about-project)
@@ -57,7 +57,7 @@
 
 ---
 
-## 🎥 Live Demo
+## Live Demo
 
 <div align="center">
   <img src="https://github.com/gauravbuildz/smart-campus-management/raw/main/assets/demo.gif" alt="Smart Campus Walkthrough" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);" />
@@ -66,13 +66,13 @@
 
 ---
 
-## 📖 About Project
+## About Project
 
 The **Smart Campus Service Hub** is a next-generation web application designed to digitize and centralize core campus student services. Traditional campuses are held back by fragmented communications, physical paperwork, and manual status auditing. This project provides a robust, role-based, real-time portal where students can submit service requests and complain about infrastructure failures, while administrators can track resolutions, broadcast unexpired notices, manage resources, and audit operational analytics under a unified, glassmorphic UI.
 
 ---
 
-## 🎯 Why Smart Campus Service Hub?
+## Why Smart Campus Service Hub?
 
 Traditional campus administration relies on manual paperwork, physical notice boards, and scattered messaging channels. Smart Campus Service Hub modernizes these workflows, offering:
 
@@ -84,7 +84,7 @@ Traditional campus administration relies on manual paperwork, physical notice bo
 
 ---
 
-## 🚨 Problem Statement
+## Problem Statement
 
 | Traditional Campus | Smart Campus Service Hub |
 | :--- | :--- |
@@ -95,7 +95,7 @@ Traditional campus administration relies on manual paperwork, physical notice bo
 
 ---
 
-## 🚀 Proposed Solution
+## Proposed Solution
 
 The platform automates the student-to-admin lifecycle through a highly coordinated system architecture:
 
@@ -110,7 +110,7 @@ graph LR
 
 ---
 
-## ✨ Highlights
+## Highlights
 
 | ⚡ Lightning Fast | 🔒 Built Secure | 📱 Fully Responsive |
 | :--- | :--- | :--- |
@@ -122,7 +122,7 @@ graph LR
 
 ---
 
-## 🔑 Key Features
+## Key Features
 
 - **🔐 NextAuth Protection**: Dynamic dashboard interfaces served according to student/admin JWT permissions.
 - **🛠️ Automated Ticketing**: Key-word matching auto-calculates severity level (`HIGH` or `LOW`) for faster triage.
@@ -133,7 +133,7 @@ graph LR
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 | <a href="screenshots/01-landing-page.png"><img src="screenshots/01-landing-page.png" alt="Landing Page" style="border-radius: 8px;" /></a> | <a href="screenshots/04-student-dashboard.png"><img src="screenshots/04-student-dashboard.png" alt="Student Dashboard" style="border-radius: 8px;" /></a> | <a href="screenshots/05-notices-event.png"><img src="screenshots/05-notices-event.png" alt="Notices & Events" style="border-radius: 8px;" /></a> |
 |:---:|:---:|:---:|
@@ -145,7 +145,7 @@ graph LR
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Layer | Technology | Purpose | Version |
 | :--- | :--- | :--- | :--- |
@@ -160,7 +160,7 @@ graph LR
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 The application decouples client views and server operations, utilizing Next.js middleware routing to dynamically guide users.
 
@@ -176,7 +176,7 @@ graph TD
 
 ---
 
-## 🔒 Authentication Flow
+## Authentication Flow
 
 Detailed flow showing login validation, token issuance, and protected route authorization:
 
@@ -211,7 +211,7 @@ sequenceDiagram
 
 ---
 
-## 🔄 Project Workflow
+## Project Workflow
 
 ```mermaid
 graph LR
@@ -225,7 +225,7 @@ graph LR
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```text
 smart-campus-management/
@@ -243,7 +243,7 @@ smart-campus-management/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Clone the Project
 ```bash
@@ -252,7 +252,7 @@ cd smart-campus-management-1
 ```
 
 ### 2. Configure Environment
-Create a `.env` file in the root directory (see [Environment Variables](#-environment-variables)).
+Create a `.env` file in the root directory (see [Environment Variables](#environment-variables)).
 
 ### 3. Install Dependencies
 ```bash
@@ -274,11 +274,11 @@ npx prisma db seed
 ```bash
 npm run dev
 ```
-Open [](http://localhost:3000) to view the application.
+Open [http://localhost:3000](http://localhost:3000) to view the application.
 
 ---
 
-## 📝 Environment Variables
+## Environment Variables
 
 | Variable | Required | Description |
 | :--- | :--- | :--- |
@@ -290,7 +290,7 @@ Open [](http://localhost:3000) to view the application.
 
 ---
 
-## 👤 Demo Credentials
+## Demo Credentials
 
 For testing the application locally or checking deployment, use the following accounts:
 
@@ -303,7 +303,7 @@ For testing the application locally or checking deployment, use the following ac
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 The platform is designed to be fully serverless-ready and can be deployed in minutes on Vercel:
 
@@ -314,7 +314,7 @@ The platform is designed to be fully serverless-ready and can be deployed in min
 
 ---
 
-## 📡 API Overview
+## API Overview
 
 All routes except authentication callback require valid NextAuth cookies.
 
@@ -330,7 +330,7 @@ All routes except authentication callback require valid NextAuth cookies.
 
 ---
 
-## 🛡️ Security
+## Security
 
 - **Session Security**: Stateless JSON Web Tokens (JWT) mapped securely via NextAuth.
 - **Path Guarding**: Server-side middleware checks route structures to block unauthorized page requests.
@@ -339,7 +339,7 @@ All routes except authentication callback require valid NextAuth cookies.
 
 ---
 
-## ⚡ Performance
+## Performance
 
 - **Optimized Caching**: Leverages `SWR` query caches to update lists in real-time, avoiding full page refreshes.
 - **Server Components**: Leverages React Server Components (RSC) to reduce client-side bundle size.
@@ -348,7 +348,7 @@ All routes except authentication callback require valid NextAuth cookies.
 
 ---
 
-## 🔮 Roadmap
+## Roadmap
 
 - **🤖 AI Assistant**: Large-Language Model assistant to resolve student FAQs and direct inquiries.
 - **🔔 Push Notifications**: Web-push protocols to alert users about exam timetables and alerts.
@@ -358,7 +358,7 @@ All routes except authentication callback require valid NextAuth cookies.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps to contribute:
 1. Fork the project repository.
@@ -369,13 +369,13 @@ Contributions are welcome! Please follow these steps to contribute:
 
 ---
 
-## 📄 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for details.
 
 ---
 
-## 🧔 Developer
+## Developer
 
 <div align="center">
 
