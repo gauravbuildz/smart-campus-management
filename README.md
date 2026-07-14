@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero-banner.png" alt="Smart Campus Service Hub Hero Banner" width="100%" style="border-radius: 8px;" />
+<img src="assets/hero-banner.png" alt="Smart Campus Service Hub Hero Banner" width="100%" height="280" style="border-radius: 8px; object-fit: cover;" />
 
 <br /><br />
 
@@ -112,10 +112,10 @@ Administrators are equipped with a unified console to manage incoming student re
 
 | Traditional Campus Bottlenecks | Smart Campus Service Hub Solutions |
 | :--- | :--- |
-| **📢 Scattered Notices**<br>Circulars posted on physical boards or informal chat groups lead to missed deadlines and outdated details. | **Centralized Notice Board**<br>Priority-tagged circular feed with automated post expiration filters to keep announcements current. |
-| **📄 Paper-Heavy Forms**<br>Applying for documents (certificates, transcript IDs) requires physical paperwork, signatures, and office queues. | **Digital Service Requests**<br>Secure online request workflows where students apply, upload details, and track progress. |
-| **🛠️ Opaque Maintenance Logs**<br>Infrastructure bugs (broken class lights, offline routers) are verbalized and forgotten without tracking. | **Interactive Complaint Desk**<br>Auditable logs tracking ticket resolution paths, severity priorities, and coordinator status logs. |
-| **🎒 Hard-to-Search Registers**<br>Lost and found records kept in handwritten ledger books lead to collection disputes and audit delays. | **Verified Claims Engine**<br>Visual item gallery requiring claim proofs. Approving a claim automatically rejects duplicate reports. |
+| **📢 Scattered Announcements & Notices**<br>Official circulars, exam timelines, and schedules are scattered across physical boards or group chats, causing missed deadlines and outdated information. | **Centralized Urgency-Categorized Notice Board**<br>Provides a real-time announcement feed featuring urgency tags (High/Medium/Low), category filter groups, and automatic notice expiration rules to keep notices current. |
+| **📄 Paper-Heavy Document Workflows**<br>Applying for simple certificates, transcript approvals, or ID cards requires printing paper forms, standing in physical queues, and chasing department signatures. | **Digital Self-Service Request Workflows**<br>Implements automated request paths where students upload document parameters and proof files, tracking progress end-to-end with status alerts. |
+| **🛠️ Opaque & Untracked Campus Maintenance**<br>Physical infrastructure faults (broken lights, malfunctioning fixtures, offline routers) are reported verbally, leading to forgotten requests and zero accountability. | **Smart Complaint Manager & Audit Logs**<br>Enforces structured ticket logging with automatic severity scores, real-time coordinator status tracking, and permanent audit logs for repairs. |
+| **🎒 Disorganized Handwritten Registers**<br>Lost item logs kept in handwritten paper registries are hard to search, leading to ownership disputes and administrative auditing delays. | **Verified Image-Proof Claims Engine**<br>Showcases a visual item gallery, requiring students to upload image proofs when claiming items, which automatically auto-rejects conflicting claims once verified. |
 
 ---
 
