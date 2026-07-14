@@ -10,14 +10,14 @@
 
 > **💡 Elevator Pitch**: Smart Campus Service Hub is a student-first portal that digitizes certificate requests, logs maintenance complaints, and automates lost-and-found claims under a single, role-based workflow.
 
-[![Vercel Demo](https://img.shields.io/badge/Vercel-Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://smart-campus-management-4rg6.vercel.app/)
-[![Watch Demo](https://img.shields.io/badge/YouTube-Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=your-video-id)
-[![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gaurav-spnrec/smart-campus-management-1.git)
+[![Vercel Demo](https://img.shields.io/badge/Vercel-Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://smart-campus-servicehub.vercel.app)
+[![Watch Demo](https://img.shields.io/badge/YouTube-Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/2s7iWLVugc8)
+[![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gauravbuildz/smart-campus-service-hub)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
-[![GitHub stars](https://img.shields.io/github/stars/gaurav-spnrec/smart-campus-management-1?style=flat&color=yellow&logo=github)](https://github.com/gaurav-spnrec/smart-campus-management-1/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/gaurav-spnrec/smart-campus-management-1?style=flat&color=lightgrey&logo=github)](https://github.com/gaurav-spnrec/smart-campus-management-1/network/members)
-[![GitHub last commit](https://img.shields.io/github/last-commit/gaurav-spnrec/smart-campus-management-1?style=flat&color=blue)](https://github.com/gaurav-spnrec/smart-campus-management-1/commits/main)
+[![GitHub stars](https://img.shields.io/github/stars/gauravbuildz/smart-campus-service-hub?style=flat&color=yellow&logo=github)](https://github.com/gauravbuildz/smart-campus-service-hub/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/gauravbuildz/smart-campus-service-hub?style=flat&color=lightgrey&logo=github)](https://github.com/gauravbuildz/smart-campus-service-hub/network/members)
+[![GitHub last commit](https://img.shields.io/github/last-commit/gauravbuildz/smart-campus-service-hub?style=flat&color=blue)](https://github.com/gauravbuildz/smart-campus-service-hub/commits/main)
 
 <br />
 
@@ -40,7 +40,7 @@
 <div align="center">
 
 <a id="walkthrough"></a>
-<img src="https://github.com/gauravbuildz/smart-campus-management/raw/main/assets/demo.gif" alt="Smart Campus Walkthrough" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);" />
+<img src="https://github.com/gauravbuildz/smart-campus-service-hub/raw/main/assets/demo.gif" alt="Smart Campus Walkthrough" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);" />
 
 <p><i>Complete application walkthrough showing student and admin portals</i></p>
 
@@ -210,8 +210,8 @@ flowchart TD
 ### 1. Clone the Project
 
 ```bash
-git clone https://github.com/gaurav-spnrec/smart-campus-management-1.git
-cd smart-campus-management-1
+git clone https://github.com/gauravbuildz/smart-campus-service-hub.git
+cd smart-campus-service-hub
 ```
 
 ### 2. Configure Environment
@@ -282,7 +282,7 @@ The platform is designed to be fully serverless-ready and can be deployed in min
 ### Folder Structure
 
 ```text
-smart-campus-management/
+smart-campus-service-hub/
 ├── prisma/                 # Database schema models & seed scripts
 ├── public/                 # Static assets & public resources
 └── src/
@@ -360,7 +360,7 @@ Distributed under the MIT License. See `LICENSE` for details.
 Designed and developed with ❤️ by **Gaurav Kumar**.
 
 <p align="center">
-  <a href="https://github.com/gaurav-spnrec"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://github.com/gauravbuildz"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
   <a href="https://www.linkedin.com/in/gauravbuildz/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
