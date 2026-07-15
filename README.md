@@ -454,9 +454,7 @@ Designed and developed with ❤️ by **Gaurav Kumar**.
 
 <p align="center">
   <a href="https://github.com/gauravbuildz" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a> &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/gauravbuildz/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> &nbsp;&nbsp;
-  <a href="mailto:gauravbuildz@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a> &nbsp;&nbsp;
-  <a href="https://github.com/gauravbuildz" target="_blank"><img src="https://img.shields.io/badge/Portfolio-FACC15?style=for-the-badge&logo=google-chrome&logoColor=black" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/gauravbuildz/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
